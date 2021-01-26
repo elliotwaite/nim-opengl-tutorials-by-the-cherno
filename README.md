@@ -52,7 +52,9 @@ command from the repos root directory:
 ```
 nim r --gc:orc ep07/app.nim
 ```
-I use the ORC garbage collector because I use the ``=destroy`()` destructor syntax.
+I specify the ORC garbage collector because I use the `` `=destroy`()``
+destructor syntax which I don't think gets called with the current default
+garbage collector.
 
 Episode 22 introduces using ImGui. To get it to work, I put the compiled
 cimgui file (`cimgui.dylib`) into my project's root directory. However, I
