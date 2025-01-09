@@ -2,20 +2,19 @@
 
 I followed The Cherno's [OpenGL tutorial
 series](https://www.youtube.com/playlist?list=PLlrATfBNZ98foTJPJ_Ev03o2oq3-GGOS2)
-on YouTube to learn OpenGL for Nim. In his tutorials, he uses C++, but
-since Nim's OpenGL code is very similar to the C++ code, it was easy to
-translate his code into Nim. I wanted to create this repo to potential
-help others who wanted to learn OpenGL for Nim, but were struggling to
-translate the available C++ tutorial into Nim code. In The Cherno's
-tutorials, he starts with the basics and gradually builds up a code
-base. I stored the state of the code at the end of each episode in a
-separate folder. I skipped creating separate folders for the first 6
-episodes since it wasn't until the 7th episode that something was drawn
-to the screen. So the `ep07` folder contains the combined code of
-working through episodes 1 through 7. Likewise, any other skipped episodes
-are just ones where there wasn't enough of a change in the code to
-warrant it having its own folder, so the progress made in that episode
-will just be combined into the folder for the next episode.
+on YouTube to learn OpenGL for Nim. In his tutorials, he uses C++, but since
+Nim's OpenGL code is very similar to the C++ code, it was easy to translate his
+code into Nim. I created this repo to help others who want to learn OpenGL for
+Nim but are struggling to translate the available C++ tutorials into Nim code.
+In The Cherno's tutorials, he starts with the basics and gradually builds up a
+code base. I stored the state of the code at the end of each episode in a
+separate folder. I skipped creating separate folders for the first 6 episodes
+since it wasn't until the 7th episode that something was drawn to the screen. So
+the `ep07` folder contains the combined code of working through episodes 1
+through 7. Likewise, any other skipped episodes are just ones where there wasn't
+enough of a change in the code to warrant it having its own folder, so the
+progress made in that episode will just be combined into the folder for the next
+episode.
 
 ## The Videos and the Associated Code
 | YouTube Video(s) | Source Code |
